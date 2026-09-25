@@ -1,0 +1,11 @@
+# Interactive Python shell.
+ipython
+
+# Jupyter lab.
+jupyterlab
+
+# Jupyter notebook.
+notebook
+
+# Numerical arrays.
+numpy
