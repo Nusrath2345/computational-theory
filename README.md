@@ -49,7 +49,11 @@ As an alternative to a local setup, open this repository on GitHub, select **Cod
 - [NumPy data types](https://numpy.org/doc/stable/user/basics.types.html): explains `uint32` and how fixed-width integers overflow.
 - [Python `hashlib`](https://docs.python.org/3/library/hashlib.html): Python's built-in SHA-256, used to test this implementation.
 - [Python `bytes`](https://docs.python.org/3/library/stdtypes.html#bytes-objects): the type used for input messages.
-- [Jupyter Notebook](https://jupyter.org/): the environment used to run `problems.ipynb`.
+- [Jupyter Notebook](https://jupyter.org/): the environment used to run `problems.
+ipynb`.
+- [Python `int.to_bytes` / `int.from_bytes`](https://docs.python.org/3/library/stdtypes.html#int.to_bytes): convert between integers and big-endian bytes.
+- [NumPy byte order](https://numpy.org/doc/stable/user/basics.byteswapping.html): explains the `>` and `<` dtype prefixes used to read big-endian words.
+- [Danny Cohen, *On Holy Wars and a Plea for Peace* (1980)](https://www.rfc-editor.org/ien/ien137.txt): the paper that introduced the terms big-endian and little-endian.
 
 ## Author
 
